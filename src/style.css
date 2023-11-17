@@ -2,6 +2,8 @@
   --first-color: #6c63ff;
   --second-color: #f9f7fe;
   --third-color: #272142;
+  --heading-font: Playfair Display, serif;
+  --body-font: Poppins, sans-serif;
 }
 
 h1,
@@ -10,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Playfair Display, serif;
+  font-family: var(--heading-font);
   font-weight: bold;
 }
 
@@ -20,7 +22,7 @@ h6 {
   padding: 120px 0;
 }
 .hero-section p {
-  font-family: Poppins, sans-serif;
+  font-family: var(--body-font);
   font-weight: bold;
   font-size: 36px;
 }
@@ -29,7 +31,7 @@ h6 {
   font-size: 86px;
 }
 .hero-section h2 {
-  font-family: Poppins, sans-serif;
+  font-family: var(--body-font);
   font-size: 24px;
   font-weight: normal;
   color: var(--third-color);
@@ -42,6 +44,17 @@ h6 {
   border-radius: 4px;
   text-decoration: none;
 }
+.description {
+  padding: 100px 30px;
+}
+.description h3 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.description p {
+  font-size: 16px;
+}
+
 @media (max-width: 900px) {
   .hero-section h1 {
     font-size: 46px;
