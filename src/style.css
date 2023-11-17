@@ -44,12 +44,19 @@ h6 {
   border-radius: 4px;
   text-decoration: none;
 }
+.secondary-btn {
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
 .description {
   padding: 100px 30px;
 }
 .description h3 {
   font-size: 64px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .description p {
   font-size: 16px;
@@ -60,6 +67,6 @@ h6 {
     font-size: 46px;
   }
   .hero-section p {
-    font-size: 28px;
+    font-size: 16px;
   }
 }
