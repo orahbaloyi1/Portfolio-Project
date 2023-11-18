@@ -61,6 +61,10 @@ h6 {
 .description p {
   font-size: 16px;
 }
+.footer {
+  background: var(--second-color);
+  padding: 30px 40px;
+}
 
 @media (max-width: 900px) {
   .hero-section h1 {
